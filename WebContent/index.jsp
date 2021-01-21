@@ -33,21 +33,20 @@
 						</div>
 						</br>
 
-						<form action="FormularioServlet" method="POST" id="formulario">
+						<form action="FormularioServlet" method="POST" >
 							<div>
 								<label for="nombre" class="col-sm-3 col-form-label">Nombre</label>
-								 <input type="text" class=" col-sm-8" id="nombre"  required />
+								 <input type="text" class=" col-sm-8" id="nombre" name="nombre" required />
 							</div>
 							</br>
 							<div>
 								<label for="apellido" class="col-sm-3 col-form-label">Apellido</label> <input
-									type="text" class="col-sm-8" id="apellido"  required />
+									type="text" class="col-sm-8" id="apellido" name="apellido" required />
 							</div>
 							</br>
 							<div>
 								<label for="email" class="col-sm-3 col-form-label">Email</label> <input
-									type="email" class="col-sm-8" id="email"
-									 required> <br />
+									type="email" class="col-sm-8" id="email" name="email"  required> <br />
 							</div>
 							</br>
 							<div>

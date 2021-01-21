@@ -24,18 +24,14 @@ public class FormularioServlet extends HttpServlet{
 			String nombreCompleto = nombre +" " + apellido;
 
 
-			if(edad>=18) {	
-				nombreCompleto=""+nombreCompleto;
+			if(edad>=18) {			
 				mensajeEdad="Es mayor de edad";
-				email=""+email;
 			}else {
-				mensajeEdad="Es menor de edad";
+				email="No se puede mostrar email";			
 				
-						
-
 			}
-
-
+					
+							
 			peticion.getSession().setAttribute("nombre",nombre);	
 			peticion.getSession().setAttribute("apellido",apellido);
 			peticion.getSession().setAttribute("email",email);

@@ -20,8 +20,9 @@
 					</div>
 					<div class="form-group">
 						<label for="mostrarEmail">Email</label> <input type="text"
-							class="form-control" id="mostrarEmail" disabled
+							class="form-control" id="mostrarEmail"  disabled
 							value="<%out.println(request.getSession().getAttribute("email"));%>">
+							
 					</div>
 					<div class="form-group">
 						<label for="mostrarEdad">Edad</label> <input type="text"
