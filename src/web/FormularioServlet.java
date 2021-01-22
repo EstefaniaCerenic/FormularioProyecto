@@ -27,7 +27,9 @@ public class FormularioServlet extends HttpServlet{
 			if(edad>=18) {			
 				mensajeEdad="Es mayor de edad";
 			}else {
-				email="No se puede mostrar email";			
+				email="No se puede mostrar email";		
+				mensajeEdad="Es menor de edad";
+					
 				
 			}
 					

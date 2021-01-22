@@ -18,6 +18,7 @@
 							name="mostrarNombre" disabled
 							value="<%out.println(request.getSession().getAttribute("nombreCompleto"));%>">
 					</div>
+					
 					<div class="form-group">
 						<label for="mostrarEmail">Email</label> <input type="text"
 							class="form-control" id="mostrarEmail"  disabled
